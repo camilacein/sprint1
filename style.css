@@ -72,36 +72,57 @@ h3 { text-align: center;
 .orderimg {
     border-radius: 2%;
     box-shadow: 4px 8px 35px 13px rgba(0,0,0,0.67);
-    float: right;
-    max-width: 35%;
-    margin-left: 20px;
-    margin-right: 40px;
-    margin-bottom: 10%;
-    margin-top: 7%;
+    width: 30%;
+    height: 50vh;
+    object-fit: cover;
+    margin-left: 5%;
+    margin-top: 4%;
 }
 .orderimg2, .orderimg3, .orderimg4 {
     border-radius: 2%;
     box-shadow: 4px 8px 35px 13px rgba(0,0,0,0.67);
     max-width: 30%;
-    float: left;
     margin-right: 40px;
-    margin-bottom: 4%;
+    
     
 }
-
-.orderimg5{
-    margin-left: 15%;
-    width: 70%;
-    object-position: center;
+main {
+    text-align: center;
     margin-bottom: 2%;
+}
+.imagecontainer p{
+    display: inline-block;
+    width:12rem ;
+    font-size: 1.3rem;
+    vertical-align: top;
+    margin-top: 8%;
+    
+}
+.orderimg5 {
+    width: 50%;
+    height: 40%;
+    margin-bottom: 5%;
+    border-radius: 2%;
+    box-shadow: 4px 8px 35px 13px rgba(0,0,0,0.67);
 
 }
 .imagecontainer {
-    clear: both;
+    
     margin-bottom: 10%;
 }
-
-#paragraph {
+#description p{
+    vertical-align: top;
+display: inline-block;
+width: 12rem;
+font-family: 'Lora', serif;
+font-size: 120%;
+margin-top: 10%;
+margin-right: 5%;
+}
+#description2 {
+    font-family: 'Lora', serif;
+}
+/* #paragraph {
     position: absolute;
     top: 80%;
     left: 0;
@@ -116,7 +137,7 @@ h3 { text-align: center;
     font-size: 150%;
     position: relative;
     margin-left: 50%;
-}
+} */
 #paragraph3 {
     text-align: center;
     font-family: 'Lora', serif;
@@ -127,19 +148,20 @@ h3 { text-align: center;
     text-align: center;
     font-family: 'Fjalla One', sans-serif;
     font-size: 150%;
-    margin-bottom: 2%;
+    margin-bottom: 3%;
 
 }
 #contact {
     text-align: left;
     margin-left: 2%;
+    margin-bottom: 1%;
 }
 #contact1 {
     margin-left: 70%;
-    
+    margin-bottom: 1%;
 }
 footer {
-    clear: both;
+    
     display: block;
     text-align: center;
     background-color:  rgba(87, 158, 119, 0.671);
