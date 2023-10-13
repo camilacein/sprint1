@@ -3,7 +3,93 @@
     margin: 0;
     box-sizing: border-box;
 }
-.headerStyle {
-    display: inline;
-    color: rgb(0, 0, 139);
+
+body {
+    background-color: rgb(212, 219, 202);
+}
+
+#color{
+    background-color: rgba(87, 158, 119, 0.671);
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 150%;
+    margin-right: 2%;
+}
+a:hover {
+    color: black;
+    background-color: rgba(44, 158, 95, 0.671);
+    padding: .4vh;
+    border-radius: 1vh;
+}
+#active {
+    color:rgb(218, 248, 176)  ;
+}
+nav {
+    margin-left: 10%;
+    margin-bottom: 1%;
+}
+
+#smallimglogo{
+    display: inline-block;
+    width: 5%;
+    margin-right: 5px;
+    
+
+}
+
+#position {
+    display: inline-block;
+   width: 80%;
+}
+
+#titulopage {
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 450%;
+}
+h2 {
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 200%;
+    margin-top: 2%;
+}
+#smallbanner {
+    height: 25vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+.orderimg {
+    border-radius: 2%;
+    box-shadow: 4px 8px 35px 13px rgba(0,0,0,0.67);
+    float: right;
+    max-width: 35%;
+    margin-left: 20px;
+    margin-right: 40px;
+    margin-bottom: 10%;
+    margin-top: 7%;
+}
+
+#paragraph {
+    position: absolute;
+    top: 80%;
+    left: 0;
+    transform: translate(8%, -45%);
+    width:45%;
+    text-align: left;
+    font-family: 'Lora', serif;
+    font-size: 150%;
+}
+
+footer {
+    clear: both;
+    display: block;
+    text-align: center;
+    background-color:  rgba(87, 158, 119, 0.671);
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 150%;
 }
