@@ -29,13 +29,13 @@ a:hover {
     color:rgb(218, 248, 176)  ;
 }
 nav {
+    display: flex;
     margin-left: 10%;
     margin-bottom: 1%;
 }
 
 #smallimglogo{
-    display: inline-block;
-    width: 5%;
+    width: 65px;
     margin-right: 5px;
     
 
@@ -43,7 +43,7 @@ nav {
 
 #position {
     display: inline-block;
-   width: 80%;
+   width: 70%;
 }
 
 #titulopage {
@@ -119,7 +119,7 @@ font-size: 120%;
 margin-top: 10%;
 margin-right: 5%;
 }
-#description2 {
+.description2 {
     font-family: 'Lora', serif;
 }
 /* #paragraph {
